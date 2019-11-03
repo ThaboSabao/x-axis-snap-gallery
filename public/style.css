@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-container {
+  display: flex;
+  height: 100vh;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  width: 100vw;
+}
+.gallery-container .gallery-child {
+  height: 100vh;
+  min-width: 100vw;
+  position: relative;
+  scroll-snap-align: center;
+  width: 100vh;
+}
+.gallery-container .gallery-child .img-cont {
+  background-color: grey;
+  height: 100vh;
+  max-height: 22.5em;
+  max-width: 30em;
+  width: 100vw;
+}
+
+/*# sourceMappingURL=style.css.map */

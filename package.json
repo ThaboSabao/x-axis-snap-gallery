@@ -1,0 +1,23 @@
+{
+  "name": "x-axis-snap-gallery",
+  "version": "1.0.0",
+  "description": "Gallery that snaps images to center on x axis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThaboSabao/x-axis-snap-gallery.git"
+  },
+  "keywords": [
+    "snap",
+    "gallery"
+  ],
+  "author": "Tabs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThaboSabao/x-axis-snap-gallery/issues"
+  },
+  "homepage": "https://github.com/ThaboSabao/x-axis-snap-gallery#readme"
+}
