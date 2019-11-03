@@ -12,18 +12,28 @@ body {
   width: 100vw;
 }
 .gallery-container .gallery-child {
+  align-items: center;
+  display: flex;
   height: 100vh;
+  justify-content: center;
   min-width: 100vw;
   position: relative;
   scroll-snap-align: center;
   width: 100vh;
 }
 .gallery-container .gallery-child .img-cont {
-  background-color: grey;
+  align-items: center;
+  display: flex;
   height: 100vh;
-  max-height: 22.5em;
+  justify-content: center;
+  max-height: 30em;
   max-width: 30em;
   width: 100vw;
+}
+.gallery-container .gallery-child .img-cont img {
+  box-shadow: 0 0.2em 0.5em rgba(0, 0, 0, 0.3);
+  max-height: 30em;
+  max-width: 30em;
 }
 
 /*# sourceMappingURL=style.css.map */
